@@ -1,0 +1,94 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+li {
+  font-size: 2.4rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  padding: 2rem 6rem;
+  font-size: 1.8rem;
+  margin: 4rem 0rem;
+  background: #d35400;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border-radius: 1rem;
+}
+
+button:hover {
+  background: white;
+  color: #d35400;
+}
+
+/* Heading */
+header {
+  background-color: #d35400;
+  color: white;
+}
+
+/* Nav */
+nav {
+  min-height: 10vh;
+  display: flex;
+  width: 90%;
+  padding: 3rem;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+#logo {
+  flex: 2 1 40rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), transparent),
+    url("image/food.jpg");
+  min-height: 84vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
